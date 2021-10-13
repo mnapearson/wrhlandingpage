@@ -7,9 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Gruppo&family=Permanent+Marker&display=swap"
       rel="stylesheet"
     />
+
     <script src="index.js" defer></script>
     <link rel="stylesheet" href="style.css" defer />
     <title>Hendershot</title>
@@ -17,58 +18,62 @@
   <body>
     <header>
       <marquee class="banner" scrolldelay="100">
-        NOW BOOKING DATES APRIL 8TH - APRIL 23rd, 2022!</marquee
-      >
+        NOW BOOKING DATES APRIL 8TH - APRIL 23rd, 2022!
+      </marquee>
       <img class="image" src="images/hendershot.jpg" alt="" />
       <h1>HENDERSHOT</h1>
     </header>
-    <p>
-      Former The End Men frontman Matthew Hendershot is back with a brand new
-      tour People have called Hendershot everything from “the love-child of Tom
-      Waits and Jack White” to “the rebirth of Joe Cocker” to “a musical fall
-      down a flight of stairs with a voice like chocolate melted in an ashtray.”
-      The End Men were the premiere Brooklyn, New York modern blues duo that
-      released 6 albums, toured Europe 8 times, the USA 6 times since 2010, and
-      received the 2016 CXCW Best Performance Award. Now, after three years
-      away, Hendershot is back with a unique one-man show that blends new
-      material with familiar favorites from The End Men, and ranges from full
-      blown amplified rock to boozy blues to intimate acoustic shanties and dark
-      banterous tales.
-    </p>
-    <h2>
-      HENDERSHOT is now booking dates between April 8th and April 23rd, 2022!
-    </h2>
-    <p>
-      He is available for solo shows, festivals, podcasts, radio shows, private
-      events, living room concerts and anything other kind of experience. He
-      will even offer dinner and a show, in which he cooks a meal and plays a
-      concert. His already legendary cooking skills fed hungry artists for three
-      months at the IBUG Art Festival in Saxony. Interested? Then get in touch
-      with us at tour@wellroundedhoodlum.com. I am really looking forward to
-      hearing from you Best wishes and greetings from Leipzig
-    </p>
+    <div class="main">
+      <p>
+        Former The End Men frontman Matthew Hendershot is back with a brand new
+        tour People have called Hendershot everything from “the love-child of
+        Tom Waits and Jack White” to “the rebirth of Joe Cocker” to “a musical
+        fall down a flight of stairs with a voice like chocolate melted in an
+        ashtray.” The End Men were the premiere Brooklyn, New York modern blues
+        duo that released 6 albums, toured Europe 8 times, the USA 6 times since
+        2010, and received the 2016 CXCW Best Performance Award. Now, after
+        three years away, Hendershot is back with a unique one-man show that
+        blends new material with familiar favorites from The End Men, and ranges
+        from full blown amplified rock to boozy blues to intimate acoustic
+        shanties and dark banterous tales.
+      </p>
+      <h3>
+        HENDERSHOT is now booking dates between April 8th and April 23rd, 2022!
+      </h3>
+      <p>
+        He is available for solo shows, festivals, podcasts, radio shows,
+        private events, living room concerts and anything other kind of
+        experience. He will even offer dinner and a show, in which he cooks a
+        meal and plays a concert. His already legendary cooking skills fed
+        hungry artists for three months at the IBUG Art Festival in Saxony.
+      </p>
+      <p>
+        Interested? Then get in touch with us through the contact form below, or
+        reach us at
+        <a href="mailto:tour@wellroundedhoodlum.com"
+          >tour@wellroundedhoodlum.com</a
+        >.
+      </p>
+      <p>I am really looking forward to hearing from you.</p>
+      <p>Best wishes and greetings from Leipzig</p>
+    </div>
     <div class="contact">
       <form id="form">
         <div class="field">
-          <label for="from_name">from_name</label>
+          <label for="from_name">name</label>
           <input type="text" name="from_name" id="from_name" />
         </div>
         <div class="field">
-          <label for="to_name">to_name</label>
-          <input type="text" name="to_name" id="to_name" />
+          <label for="reply_to">email</label>
+          <input type="text" name="reply_to" id="reply_to" />
         </div>
         <div class="field">
           <label for="message">message</label>
-          <input type="text" name="message" id="message" />
-        </div>
-        <div class="field">
-          <label for="reply_to">reply_to</label>
-          <input type="text" name="reply_to" id="reply_to" />
+          <textarea type="text" name="message" id="message"></textarea>
         </div>
 
-        <input type="submit" id="button" value="Send Email" />
+        <input type="submit" id="button" value="send" />
       </form>
-
       <script
         type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"

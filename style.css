@@ -2,6 +2,24 @@
   margin: 0 auto;
 }
 
+body {
+  font-family: "Gruppo", cursive;
+}
+
+h1 {
+  font-family: "Permanent Marker", cursive;
+}
+
+h3 {
+  text-decoration: underline;
+  margin: 1rem;
+}
+
+p {
+  line-height: 1.5rem;
+  margin: 1rem;
+}
+
 /*banner*/
 
 .banner {
@@ -15,14 +33,28 @@ header {
   flex-direction: column;
   justify-content: space-evenly;
   height: 100vh;
-  font-family: "Permanent Marker", cursive;
 }
 
 header img {
   height: 80vh;
 }
 
+/*text*/
+
+.main {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  min-width: 70%;
+  justify-content: space-evenly;
+}
+
 /*contact form*/
+.contact {
+  display: flex;
+  margin: 3rem;
+  font-family: "Gruppo", cursive;
+}
 
 .field {
   margin-bottom: 10px;
@@ -41,11 +73,17 @@ header img {
   font-size: 14px;
 }
 
+textarea {
+  min-width: 250px;
+  min-height: 100px;
+}
+
 input[type="submit"] {
   display: block;
   padding: 6px 30px;
   font-size: 14px;
-  background-color: #4460aa;
+  font-family: "Gruppo", cursive;
+  background-color: #00030c;
   color: #fff;
-  border: none;
+  border-radius: 15px;
 }
