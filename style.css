@@ -44,8 +44,7 @@ header img {
 .main {
   display: flex;
   flex-direction: column;
-  max-width: 60%;
-  min-width: 70%;
+  max-width: 70%;
   justify-content: space-evenly;
 }
 
@@ -86,4 +85,16 @@ input[type="submit"] {
   background-color: #00030c;
   color: #fff;
   border-radius: 15px;
+}
+
+/*mobile*/
+
+@media only screen and (max-width: 600px) {
+  header img {
+    height: 40vh;
+  }
+
+  .main {
+    max-width: 90%;
+  }
 }
