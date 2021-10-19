@@ -32,6 +32,7 @@ a {
 
 .banner {
   font-size: 22px;
+  margin-top: 1rem;
 }
 
 /*header*/
@@ -40,11 +41,16 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
   height: 100vh;
 }
 
-header img {
-  height: 80vh;
+.image {
+  height: 60vh;
+}
+
+.logo-image {
+  height: 20vh;
 }
 
 .iconify {
@@ -117,9 +123,13 @@ footer a {
 
 /*mobile*/
 
-@media only screen and (max-width: 600px) {
-  header img {
-    height: 40vh;
+@media only screen and (max-width: 800px) {
+  .image {
+    height: 50vh;
+  }
+
+  .logo-image {
+    width: 90vw;
   }
 
   .main {
